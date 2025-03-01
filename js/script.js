@@ -74,7 +74,7 @@ function onReject() {
     if (clickCount === 2) {
         titleElement.textContent = '你是点错了对吧？';
     } else if (clickCount === 4) {
-        titleElement.textContent = '怎么海事点错啊';
+        titleElement.textContent = '怎么还是点错啊';
     } else if (clickCount === 5) {
         titleElement.textContent = '别闹了';
     }
